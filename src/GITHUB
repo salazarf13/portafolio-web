@@ -8,5 +8,11 @@ cd C:\Users\German\portafolio-web
 
 Comando para correr el servidor en node js
 npm run dev
-Comando par correro el servido en el node jsy ademas como1
- dasdwdasdqwEQ
+
+ 
+Comandos para agregar un proyecto a GitHub
+
+git init
+git add .
+git commit -m "Primer commit - Subiendo proyecto"
+git remote add origin hhttps://github.com/salazarf13/Ssitema-de-Gestion-para-centro-recreativo.git

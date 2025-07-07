@@ -39,8 +39,7 @@ export default function App() {
                   >
                     <p className="text-white text-lg font-semibold mb-2">Hola soy</p>
                     <h1 className="text-white font-extrabold text-5xl md:text-6xl leading-tight mb-2">German Salazar</h1>
-                    <p className="text-fuchsia-300 text-lg md:text-xl mb-4">Ingeniero en sistemas</p>
-
+                    <p className="text-fuchsia-300 text-lg md:text-xl mb-6">Desarrollador Junior Freelance | Estudiante en Ingeniera en Sitemas</p>
                     <motion.a
                       href="mailto:gersalaxd@gmail.com"
                       className="text-blue-400 hover:underline text-base block mb-1"
@@ -59,13 +58,13 @@ export default function App() {
                       animate={{ opacity: 1 }}
                       transition={{ delay: 1.8, duration: 0.5 }}
                     >
-                      <a href="mailto:gersalaxd@gmail.com" target="_blank" rel="noopener noreferrer">
-                        <i className="fas fa-envelope text-white hover:text-purple-400"></i>
+                      <a href="https://mail.google.com/mail/?view=cm&fs=1&to=gersalaxd@gmail.com" target="_blank" rel="noopener noreferrer">
+                      <i className="fas fa-envelope text-white hover:text-purple-400"></i>
                       </a>
-                      <a href="https://github.com/tu-usuario-github" target="_blank" rel="noopener noreferrer">
+                      <a href="https://github.com/salazarf13" target="_blank" rel="noopener noreferrer">
                         <i className="fab fa-github text-white hover:text-purple-400"></i>
                       </a>
-                      <a href="https://www.linkedin.com/in/tu-perfil-linkedin" target="_blank" rel="noopener noreferrer">
+                      <a href="https://www.linkedin.com/in/germansalazar13" target="_blank" rel="noopener noreferrer">
                         <i className="fab fa-linkedin text-white hover:text-purple-400"></i>
                       </a>
                     </motion.div>
@@ -79,7 +78,7 @@ export default function App() {
                     transition={{ delay: 1, duration: 1 }}
                   >
                     <img
-                      src="https://sdmntprwestus.oaiusercontent.com/files/00000000-10ac-6230-a1a9-790cc8380ef4/raw?se=2025-06-22T04%3A44%3A20Z&sp=r&sv=2024-08-04&sr=b&scid=c9738d37-460b-58e4-b5ef-881658e578d2&skoid=71e8fa5c-90a9-4c17-827b-14c3005164d6&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-06-21T17%3A38%3A53Z&ske=2025-06-22T17%3A38%3A53Z&sks=b&skv=2024-08-04&sig=9wV/oqgxGXHyefdqCa1pzs9R2oKiRx3t0vPSxuvT4VI%3D"
+                      src="/src/assets/yo.png"
                       alt="Perfil"
                       className="rounded-full border-4 border-fuchsia-600 w-56 h-56 md:w-64 md:h-64 object-cover"
                     />
