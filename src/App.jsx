@@ -78,7 +78,7 @@ export default function App() {
                     transition={{ delay: 1, duration: 1 }}
                   >
                     <img
-                      src="/src/assets/yo.png"
+                      src="/yo.png"
                       alt="Perfil"
                       className="rounded-full border-4 border-fuchsia-600 w-56 h-56 md:w-64 md:h-64 object-cover"
                     />

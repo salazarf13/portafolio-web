@@ -1,6 +1,6 @@
 Comando para subir los canbios realizados al repositorio de GitHub
 git add .
-git commit -m "Tu mensaje de los cambios"
+git commit -m "Version final 1.2"
 git push
 
 Comando par entrara a la carpeta en node js 

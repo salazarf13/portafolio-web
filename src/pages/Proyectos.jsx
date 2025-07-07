@@ -3,8 +3,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import "swiper/css";
 
-import flechaDerecha from "../assets/flecha-derecha.png";
-import flechaIzquierda from "../assets/flecha-izquierda.png";
+import flechaDerecha from "/flecha-derecha.png";
+import flechaIzquierda from "/flecha-izquierda.png";
 
 export default function Proyectos() {
   const proyectos = [
@@ -13,10 +13,10 @@ export default function Proyectos() {
       descripcion: "Mi portafolio web desarrollado con React y Tailwind CSS.",
       tecnologias: ["React", "Tailwind", "JavaScript"],
       imagenes: [
-        "/src/assets/web1.png",
-        "/src/assets/web2.png",
-        "/src/assets/web3.png",
-        "/src/assets/web4.png",
+        "/web1.png",
+        "/web2.png",
+        "/web3.png",
+        "/web4.png",
       ],
       enlace: "https://portafolio-web-inky-sigma.vercel.app",
       codigo: "https://github.com/salazarf13/portafolio-web.git",
@@ -26,10 +26,10 @@ export default function Proyectos() {
       descripcion: "Aplicación móvil para ver rutinas predefinidas.",
       tecnologias: ["Kotlin", "Firebase"],
       imagenes: [
-        "/src/assets/appgym1.jpeg",
-        "/src/assets/appgym2.jpeg",
-        "/src/assets/appgym3.jpeg",
-        "/src/assets/appgym4.jpeg",
+        "/appgym1.jpeg",
+        "/appgym2.jpeg",
+        "/appgym3.jpeg",
+        "/appgym4.jpeg",
       ],
       enlace:
         "https://drive.google.com/file/d/1OQ647Vymlgmaq7yq9P7hdI9c1wPFrE3l/view?usp=sharing",
@@ -40,7 +40,7 @@ export default function Proyectos() {
       descripcion:
         "Aplicación de escritorio para realizar inferencias estadísticas, comparaciones de proporciones, medias y varianzas. Desarrollada con Python y Tkinter.",
       tecnologias: ["Python", "Tkinter", "SciPy", "NumPy", "Matplotlib"],
-      imagen: "/src/assets/estadisticaInferencial.png",
+      imagen: "/estadisticaInferencial.png",
       enlace:
         "https://drive.google.com/file/d/1fUuKMGoiIV1aQy7BFv-ygd2awPW9It5Y/view?usp=sharing",
       codigo: "https://github.com/salazarf13/Estad-stica-inferencial.git",
@@ -51,10 +51,10 @@ export default function Proyectos() {
         "Aplicación de consola para la administración de clientes y actividades de un centro recreativo. Desarrollada en C++.",
       tecnologias: ["C++", "Consola", "Manejo de archivos"],
       imagenes: [
-        "/src/assets/sistemarecreativo1.png",
-        "/src/assets/sistemarecreativo2.png",
-        "/src/assets/sistemarecreativo3.png",
-        "/src/assets/sistemarecreativo4.png",
+        "/sistemarecreativo1.png",
+        "/sistemarecreativo2.png",
+        "/sistemarecreativo3.png",
+        "/sistemarecreativo4.png",
       ],
       enlace:
         "https://drive.google.com/file/d/1tZmuf-8ZNG8G2Wa1dmgXett3TJeZHWAf/view?usp=sharing",
@@ -67,13 +67,13 @@ export default function Proyectos() {
         "Aplicación web interactiva para la gestión de usuarios y libros de una biblioteca. HTML, CSS y JavaScript.",
       tecnologias: ["HTML", "CSS", "JavaScript"],
       imagenes: [
-        "/src/assets/biblioteca1.png",
-        "/src/assets/biblioteca2.png",
-        "/src/assets/biblioteca3.png",
-        "/src/assets/biblioteca4.png",
-        "/src/assets/biblioteca5.png",
-        "/src/assets/biblioteca6.png",
-        "/src/assets/biblioteca7.png",
+        "/biblioteca1.png",
+        "/biblioteca2.png",
+        "/biblioteca3.png",
+        "/biblioteca4.png",
+        "/biblioteca5.png",
+        "/biblioteca6.png",
+        "/biblioteca7.png",
       ],
       enlace: "https://salazarf13.github.io/mi-proyecto-web/",
       codigo:
